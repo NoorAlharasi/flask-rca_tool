@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 1: Identify the Problem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .example {
+            font-style: italic;
+            color: #777;
+            font-size: 0.9em;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Root Cause Analysis Tool</h1>
+    <form action="/section1" method="post">
+        <label for="filename">Enter filename to save responses:</label>
+        <input type="text" id="filename" name="filename" required>
+        
+        <h2>Section 1: Identify the Problem</h2>
+        <label for="response1">What is the opportunity for improvement that you noticed?</label>
+        <textarea id="response1" name="response1"></textarea>
+        <div class="example">Example: High error rate in customer order processing.</div>
+        
+        <label for="response2">What is the problem statement?</label>
+        <textarea id="response2" name="response2"></textarea>
+        <div class="example">Example: The customer order processing error rate has increased to 10%, causing delays and customer dissatisfaction.</div>
+        
+        <label for="response3">What is the business impact?</label>
+        <textarea id="response3" name="response3"></textarea>
+        <div class="example">Example: This error rate is leading to a 15% increase in operational costs and a 20% decrease in customer satisfaction.</div>
+        
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>

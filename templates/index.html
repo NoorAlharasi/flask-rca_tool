@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Cause Analysis Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Cause Analysis Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Root Cause Analysis Tool</h1>
+    <form action="/submit" method="post">
+        <label for="filename">Enter filename to save responses:</label>
+        <input type="text" id="filename" name="filename" required>
+        
+        <h2>Section 1: Identify the Problem</h2>
+        <label for="response1">What is the opportunity for improvement that you noticed?</label>
+        <textarea id="response1" name="response"></textarea>
+        
+        <label for="response2">What is the problem statement?</label>
+        <textarea id="response2" name="response"></textarea>
+        
+        <label for="response3">What is the business impact?</label>
+        <textarea id="response3" name="response"></textarea>
+        
+        <h2>Section 2: Collect Data</h2>
+        <label for="response4">Describe the current process or situation.</label>
+        <textarea id="response4" name="response"></textarea>
+        
+        <label for="response5">What data is needed to understand the problem?</label>
+        <textarea id="response5" name="response"></textarea>
+        
+        <label for="response6">List the key metrics.</label>
+        <textarea id="response6" name="response"></textarea>
+        
+        <h2>Section 3: Identify Possible Causes</h2>
+        <label for="response7">What are the possible causes under 'People'?</label>
+        <textarea id="response7" name="response"></textarea>
+        
+        <label for="response8">Possible causes under 'Process'?</label>
+        <textarea id="response8" name="response"></textarea>
+        
+        <label for="response9">Possible causes under 'Technology'?</label>
+        <textarea id="response9" name="response"></textarea>
+        
+        <label for="response10">Possible causes under 'Environment'?</label>
+        <textarea id="response10" name="response"></textarea>
+        
+        <h2>Section 4: Determine Root Cause</h2>
+        <label for="response11">Why is this problem happening? (First why)</label>
+        <textarea id="response11" name="response"></textarea>
+        
+        <label for="response12">Why is the previous answer happening? (Second why)</label>
+        <textarea id="response12" name="response"></textarea>
+        
+        <label for="response13">Why is the previous answer happening? (Third why)</label>
+        <textarea id="response13" name="response"></textarea>
+        
+        <label for="response14">Why is the previous answer happening? (Fourth why)</label>
+        <textarea id="response14" name="response"></textarea>
+        
+        <label for="response15">Why is the previous answer happening? (Fifth why)</label>
+        <textarea id="response15" name="response"></textarea>
+        
+        <h2>Section 5: Brainstorm Solutions</h2>
+        <label for="response16">Brainstorm ideas to address the root causes.</label>
+        <textarea id="response16" name="response"></textarea>
+        
+        <h2>Section 6: Develop Implementation Plan</h2>
+        <label for="response17">What are the steps to implement the selected solutions?</label>
+        <textarea id="response17" name="response"></textarea>
+        
+        <label for="response18">Who is responsible for each step?</label>
+        <textarea id="response18" name="response"></textarea>
+        
+        <label for="response19">What resources are needed for implementation?</label>
+        <textarea id="response19" name="response"></textarea>
+        
+        <label for="response20">What is the timeline for implementation?</label>
+        <textarea id="response20" name="response"></textarea>
+        
+        <h2​⬤        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Root Cause Analysis Tool</h1>
+    <form action="/submit" method="post">
+        <label for="filename">Enter filename to save responses:</label>
+        <input type="text" id="filename" name="filename" required>
+        
+        <h2>Section 1: Identify the Problem</h2>
+        <label for="response1">What is the opportunity for improvement that you noticed?</label>
+        <textarea id="response1" name="response"></textarea>
+        
+        <label for="response2">What is the problem statement?</label>
+        <textarea id="response2" name="response"></textarea>
+        
+        <label for="response3">What is the business impact?</label>
+        <textarea id="response3" name="response"></textarea>
+        
+        <!-- Add more sections similarly -->
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Cause Analysis Tool</title>
+</head>
+<body>
+    <h1>Root Cause Analysis Tool</h1>
+    <form action="/submit" method="post">
+        <label for="filename">Enter filename to save responses:</label>
+        <input type="text" id="filename" name="filename" required>
+        <h2>Section 1: Identify the Problem</h2>
+        <label for="response1">What is the opportunity for improvement that you noticed?</label>
+        <textarea id="response1" name="response"></textarea>
+        <label for="response2">What is the problem statement?</label>
+        <textarea id="response2" name="response"></textarea>
+        <label for="response3">What is the business impact?</label>
+        <textarea id="response3" name="response"></textarea>
+        <!-- Add more sections similarly -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

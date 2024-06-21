@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 4: Determine Root Cause</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .example {
+            font-style: italic;
+            color: #777;
+            font-size: 0.9em;
+        }
+        .explanation {
+            font-style: italic;
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Root Cause Analysis Tool</h1>
+    <form action="/section4" method="post">
+        <h2>Section 4: Determine Root Cause</h2>
+        <div class="explanation">Explanation: 5 Whys Analysis is a technique used to explore the cause-and-effect relationships underlying a particular problem. By repeating the question 'Why?' you can drill down into the root cause. If you're not familiar with it, kindly search for '5 Whys Analysis' on Google.</div>
+        <label for="response11">Why is this problem happening? (First why)</label>
+        <textarea id="response11" name="response11"></textarea>
+        <div class="example">Example: Lack of training.</div>
+        
+        <label for="response12">Why is the previous answer happening? (Second why)</label>
+        <textarea id="response12" name="response12"></textarea>
+        <div class="example">Example: New hires do not receive adequate training.</div>
+        
+        <label for="response13">Why is the previous answer happening? (Third why)</label>
+        <textarea id="response13" name="response13"></textarea>
+        <div class="example">Example: Training program is outdated and not comprehensive.</div>
+        
+        <label for="response14">Why is the previous answer happening? (Fourth why)</label>
+        <textarea id="response14" name="response14"></textarea>
+        <div class="example">Example: No regular review and update process for the training materials.</div>
+        
+        <label for="response15">Why is the previous answer happening? (Fifth why)</label>
+        <textarea id="response15" name="response15"></textarea>
+        <div class="example">Example: Lack of dedicated resources for training development.</div>
+        
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>
